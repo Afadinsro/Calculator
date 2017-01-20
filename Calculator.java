@@ -8,14 +8,14 @@ public class Calculator{
         System.out.println(a+b);
         break;
       case "subtract":
-        double a = Double.parseDouble(args[1]);
-        double b = Double.parseDouble(args[2]);
-        System.out.println(a-b);
+        double c = Double.parseDouble(args[1]);
+        double d = Double.parseDouble(args[2]);
+        System.out.println(c-d);
         break;
       case "multiply":
-        double a = Double.parseDouble(args[1]);
-        double b = Double.parseDouble(args[2]);
-        System.out.println(a*b);
+        double e = Double.parseDouble(args[1]);
+        double f = Double.parseDouble(args[2]);
+        System.out.println(e*f);
         break;
     }
   }
