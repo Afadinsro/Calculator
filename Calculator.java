@@ -12,6 +12,11 @@ public class Calculator{
         double b = Double.parseDouble(args[2]);
         System.out.println(a-b);
         break;
+      case "multiply":
+        double a = Double.parseDouble(args[1]);
+        double b = Double.parseDouble(args[2]);
+        System.out.println(a*b);
+        break;
     }
   }
   
