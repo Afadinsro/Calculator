@@ -16,7 +16,13 @@ public class Calculator{
         double e = Double.parseDouble(args[1]);
         double f = Double.parseDouble(args[2]);
         System.out.println(e*f);
-        break;	   
+        break;	
+
+	  case "divide":
+	    double one = Double.parseDouble (parameters[1]);
+	    double two = Double.parseDouble (parameters[2]);
+	    System.out.println(one/two);	
+        break;		
     }
   }
   
