@@ -16,8 +16,7 @@ public class Calculator{
         double e = Double.parseDouble(args[1]);
         double f = Double.parseDouble(args[2]);
         System.out.println(e*f);
-        break;
-        
+        break;	   
     }
   }
   
